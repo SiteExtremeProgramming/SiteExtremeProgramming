@@ -27,3 +27,9 @@ url: http://siteextremeprogramming.github.io/SiteExtremeProgramming
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
+
+navigation:
+    - text: Accueil       // nom affiché dans le lien
+      url: /            // url affiché dans la barre de recherche
+    - text: Journée Scrum
+      layout: post 
