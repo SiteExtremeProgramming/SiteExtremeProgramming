@@ -15,6 +15,7 @@
     </head>
 
     <body>
+	<div class="container">
         <header>
             <h1><a href="{{site.baseurl}}/">Bienvenue sur {{ site.name }}</a></h1>
                 <h4>{{ site.description }}</h4>
@@ -37,12 +38,14 @@
 
 			</main>
 		</div>
-        <footer>
-            <hr />
-            <p>&copy; <time>2016</time> {{ site.author }}</p>
-        </footer>
+		<section class="footer">
+				<footer>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="img/valid.png" alt="CSS Valide !"></a>
+				    <p>&copy; <time>2016</time> {{ site.author }}</p>
+				</footer>
+		</section>
 
-        <script src="{{site.baseurl}}/scripts.js"></script>
+    </div>
     </body>
 
 </html>
